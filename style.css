@@ -1,16 +1,34 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body{
-    background-color: rgb(0, 0, 0);
+    background: linear-gradient(to bottom, #fffbfb,#ff5353);
+    
 
     
 }
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    background-color: rgba(255, 255, 255, 0.719);
+    width: 60%;
+    height: 10vh;
+    margin: 2% 20% 0 20%;
+    border-radius: 200px;
+}
+
+.nav-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 6vh;
+    padding: 3%;
 }
 
 main{
@@ -22,34 +40,30 @@ main{
 
 }
 .logo{
-    width: 250px;
-    height: 250px;
-    margin-top: -40px;
-    margin-left: -40px;
-    z-index: 2;
+    width: 20%;
+    height: 20%;
+    
 }
 
 .adress{
-    width: 25;
-    height: 350px;
-    margin-top: -30px;
+    width: 25%;
+    height: 25%;
     margin-left: -84px;
     z-index:  1;
-    margin-bottom: -30px;
+
 }
 .title{
     
     width: 60%;
-    height: 120px;
-    background-color: #ff3486;
+    height: 20vh;
+    background-color: #000000d2;
     align-items: center;
     display:flex;
     justify-content: center;
     color:#ffffff;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 4vw;
+    font-size: 3vw;
   
-    border-radius: 100px 100px 0 0 ;
+    border-radius: 40px 40px 0 0 ;
 
 
 }
@@ -63,10 +77,7 @@ main{
 }
 
 .cakeGif{
+    width: 40vh;
+    height: 40vh;
 
-    margin-top: -50px;
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    right: 0;
 }
