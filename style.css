@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
 }
 
 body{
@@ -16,7 +17,7 @@ nav{
     align-items: center;
     justify-content: center;
     padding: 20px 0 20px 0;
-    background-color: #000000d2;
+    background-color: #1a1818d2;
     width: 60%;
     height: 10vh;
     margin: 2% 20% 0 20%;
@@ -29,6 +30,7 @@ nav{
     justify-content: space-between;
     font-size: 6vh;
     padding: 3%;
+    color: white;
 }
 
 main{
@@ -50,16 +52,22 @@ main{
     height: 25%;
 }
 
+.cakeGif{
+    width: 40vh;
+    height: 40vh;
+
+}
+
 .title{
     
     width: 60%;
     height: 20vh;
-    background-color: #000000d2;
+    background-color: #1a1818d2;
     align-items: center;
     display:flex;
     justify-content: center;
     color:#ffffff;
-    font-size: 3vw;
+    font-size: 7vh;
     border-radius: 40px 40px 0 0 ;
 }
 
@@ -68,15 +76,39 @@ main{
     height: 500px;
     width: 60%;
     background-color: rgb(255,255,255);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+
     
 }
 
-.cakeGif{
-    width: 40vh;
-    height: 40vh;
+.subtitle{
+    margin-top: 5vh;
+    width: 90%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(199, 199, 199);
+    border-radius: 20px;
+    padding: 1vh;
+    padding-left: 2vh;
+    font-size: 5vh;
+    font-family: "Permanent Marker", cursive;
 
 }
+.partesBolo{
+    width: 90%;
 
+}
+.parte{
+    margin-top: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 footer{
     margin-top: 10%;
     width: 100%;
