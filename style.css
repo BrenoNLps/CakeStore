@@ -73,7 +73,6 @@ main{
 
 .mainContainer{
     border-radius: 0 0 40px 40px;
-    height: 500px;
     width: 60%;
     background-color: rgb(255,255,255);
     display: flex;
@@ -100,6 +99,8 @@ main{
 .partesBolo{
     width: 90%;
 
+    margin-bottom: 3vh;
+
 }
 .parte{
     margin-top: 3vh;
@@ -109,6 +110,67 @@ main{
     font-size: 5vh;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.priceContainer{
+    margin-top: 5vh;
+    border-radius: 40px;
+    width: 60%;
+    background-color: rgb(255,255,255);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    width: 90%;
+    margin-top: 3vh;
+}
+
+.seletores{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+}
+label{
+    width: 50%;
+    border: 0;
+}
+
+select{
+    width: 50%;
+    border: 0;
+    background-color: rgb(199, 199, 199);
+    border-radius: 40px;
+    padding: 1vh;
+}
+textarea{
+    width: 100%;
+    margin-bottom: 2vh;
+    padding: 1vh;
+}
+
+input{
+    border: none;
+    background-color: rgb(199, 199, 199);
+    border-radius: 40px;
+    text-align: center;
+    padding: 1vh;
+}
+button{
+    width: 25%;
+    background-color: rgb(199, 199, 199);
+    border-radius: 40px;
+    border: none;
+    margin-bottom: 2vh;
+    padding: 1vh;
+}
+
+
 footer{
     margin-top: 10%;
     width: 100%;

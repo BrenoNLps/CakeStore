@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MariLopes</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="../CakeStore/images/logo.png">
 
@@ -24,7 +24,7 @@
     <main>
         <img src="./images/cake.gif" class="cakeGif">
 
-        <div class="title">&#129473; Bolos e Doces &#127856;</div>
+        <div class="title">&#129473; Bolos de Doces &#127856;</div>
 
         <div class="mainContainer">
             <div class="subtitle">Bolos</div>
@@ -39,7 +39,7 @@
             </div>
             <div class="subtitle">Bolos</div>
             <div class="partesBolo">
-                <div class="parte">Massas</div>
+                <div class="parte">Recheios</div>
                 <ul>
                     <li>Brigadeiro</li>
                     <li>Abacaxi com leite ninho</li>
@@ -50,7 +50,49 @@
                 </ul>
             </div>
         </div>
+        <div class="priceContainer">
+            <div class="subtitle">Calculo de preço</div>
+            
+            <form id="formulario-bolo" >
+                <div class="seletores">
+                    <label for="massa">Massa:</label>
+                    <select id="massa" name="massa" required>
+                        <option value="">Selecione a Massa</option>
+                        <option value="paodelo">Pão de ló</option>
+                        <option value="chocolate">Chocolate</option>
+                        <option value="redvelvet">Red Velvet</option>
+                        <option value="cenoura">Cenoura</option>
+                    </select>
+                </div>
+        
+                <div class="seletores">
+                    <label for="recheio">Recheio:</label>
+                    <select id="recheio" name="recheio" required>
+                        <option value="">Selecione o Recheio</option>
+                        <option value="brigadeiro">Brigadeiro</option>
+                        <option value="ganache">Ganache</option>
+                        <option value="moussedechocolate">Mousse de Chocolate</option>
+                        <option value="leiteninho">Leite Ninho</option>
+                        <option value="leiteninhocommorango">Leite Ninho com Morango</option>
+                        <option value="leiteninhocomabacaxi">Leite Ninho com Abacaxi</option>
+                        
+                    </select>
+                </div>
+                
+                <div  class="seletores">   
+                    <label for="peso">Peso (em quilos):</label>
+                    <input type="number" id="peso" name="peso" min="1" max="10"  value="1" required >
+                </div>
+               
+                <label for="observacoes">Observações:</label>
+                <textarea id="observacoes" name="observacoes" maxlength="600" ></textarea>
 
+                <button type="submit">Calcular</button>
+            </form>
+        </div>
+
+
+        
     </main>
 
     <footer>
