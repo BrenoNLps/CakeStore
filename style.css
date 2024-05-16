@@ -183,6 +183,8 @@ button{
     flex-direction: column;
     align-items: center;
     border-radius: 40px;
+    padding: 1vh;
+    margin-bottom: 3vh;
 }
 .valorParte{
     width: 100%;
@@ -191,7 +193,7 @@ button{
 }
 
 .precoFinal{
-    width: 100%;
+    margin-top: 1vh;
 }
 footer{
     margin-top: 10%;
